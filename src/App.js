@@ -14,6 +14,7 @@ const App = () => {
   const classes = useStyles();
   return (
     <>
+      <CssBaseline />
       <Navbar />
       <Grid container>
         <Grid item sm={2} xs={2}>
